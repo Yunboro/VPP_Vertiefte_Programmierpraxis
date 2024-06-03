@@ -11,6 +11,8 @@ CONFIG += console
 SOURCES += \
     S60_namespaces.cpp \
     S65_ein_ausgabe.cpp \
+    S70_format_flags.cpp \
+    S75_format_manipulatoren.cpp \
     main.cpp
 
 HEADERS += \
