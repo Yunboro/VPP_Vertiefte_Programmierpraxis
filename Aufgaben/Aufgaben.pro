@@ -9,8 +9,8 @@ CONFIG += console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    AufgabenS65.cpp \
     S60_namespaces.cpp \
+    S65_ein_ausgabe.cpp \
     main.cpp
 
 HEADERS += \
