@@ -13,6 +13,7 @@ SOURCES += \
     S65_ein_ausgabe.cpp \
     S70_format_flags.cpp \
     S75_format_manipulatoren.cpp \
+    S77_Aufgabe_iomanip.cpp \
     main.cpp
 
 HEADERS += \
