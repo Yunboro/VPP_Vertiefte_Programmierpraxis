@@ -28,7 +28,7 @@ int S77_Aufgabe_iomanip(){
     for(int i = 0; i < N; ++i){
         std::cout << std::left << std::setw(4) << (i+1)
                   << std::right << std::setw(8) << std::fixed << std::setprecision(2) << nettopreise[i]
-                  << std::right << std::setw(10) << std::fixed << std:: setprecision(2) << bruttopreise[i]
+                  << std::right << std::setw(10) << std::fixed << std::setprecision(2) << bruttopreise[i]
                   << std::endl;
     }
 
