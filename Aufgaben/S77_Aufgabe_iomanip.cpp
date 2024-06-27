@@ -31,5 +31,5 @@ int S77_Aufgabe_iomanip(){
                   << std::right << std::setw(10) << std::fixed << std::setprecision(2) << bruttopreise[i]
                   << std::endl;
     }
-
+    return 0;
 }
