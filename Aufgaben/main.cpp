@@ -1,16 +1,21 @@
-#include <main.h>
+#include "main.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <iomanip>
 #include <cstdlib>
 #include <math.h>
 
 using std::endl;
 using std::cout;
+=======
+#include "S77_Aufgabe_iomanip.cpp"
+>>>>>>> 581e70de9343035ad50ec9a60de6d8f27fcc1f73
 int main(){
     //S65_ein_ausgabe();
     //S60_namespaces();
     //S70_format_flags();
     //S75_format_manipulatoren();
+<<<<<<< HEAD
     //S77_Aufgabe_iomanip();
     //S78_param_swaP();
     //S87_bsp_new();
@@ -29,8 +34,26 @@ int main(){
 
     */
 
+=======
+    S77_Aufgabe_iomanip();
     return 0;
 }
+
+using std::cout;
+using std::endl;
+/*
+void swapP(int &x, int &y){ //Falls keine Adressen verwendet.
+    int hilf = x;           //Werden einfach nur lokale Kopien erzeugt
+    x = y;                  //und der Tausch der Werte funktioniert nicht
+    y = hilf;
+}
+int main(){
+    int i = 5, j = 8;
+    swapP(i, j);
+    cout << "i = " << i << ", j = " << j << endl;
+>>>>>>> 581e70de9343035ad50ec9a60de6d8f27fcc1f73
+    return 0;
+}*/
 
 
 /*
